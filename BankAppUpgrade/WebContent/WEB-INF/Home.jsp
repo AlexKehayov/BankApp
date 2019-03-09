@@ -1,0 +1,21 @@
+<%@ page import="java.sql.*" language="java"
+	contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BankApp-Home</title>
+</head>
+<body>
+
+	<br/>Menu:<br/>0.Exit<br/>1.Create new entry<br/>2.Transaction between
+	accounts<br/>3.Show history of transactions<br/>4.Search account<br/>5.Witheld
+	Interest<br/>
+
+	<form action="controllerServlet" method="post">
+		Option : <input type="text" name="option" /><br /> 
+		<input type="submit" />
+	</form>
+
+</body>
+</html>
