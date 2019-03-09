@@ -1,6 +1,8 @@
 # BankApp
 Dynamic Web Application (Java, Servlets and JSPs, Multi-Threading)
 
+IDE: Eclipse
+
 This test application is meant to be used by bank employees. There are options for opening new accounts, transfers between different accounts, searching transaction history, interest withholding and etc.
 
 The database is intentionally simplified, the point of the app is excercising servlets and jsps.
